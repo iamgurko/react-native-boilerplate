@@ -1,0 +1,40 @@
+{
+  "name": "netsis-mobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  },
+  "dependencies": {
+    "babel-preset-react-native": "4.0.1",
+    "colorsys": "^1.0.21",
+    "native-base": "^2.7.2",
+    "react": "16.4.1",
+    "react-native": "0.55.4",
+    "react-native-bpk-component-spinner": "^1.0.84",
+    "react-native-color-wheel": "^0.1.5",
+    "react-native-elements": "^1.1.0",
+    "react-native-linear-gradient": "^2.5.4",
+    "react-native-vector-icons": "^6.4.1",
+    "react-navigation": "^2.11.2",
+    "react-redux": "5.0.7",
+    "redux": "4.0.0",
+    "redux-thunk": "2.3.0",
+    "styled-components": "^4.2.0",
+    "teaset": "^0.6.3"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.2",
+    "jest": "23.5.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
